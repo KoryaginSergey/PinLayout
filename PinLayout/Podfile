@@ -8,7 +8,7 @@ target 'Landing Page' do
   # Pods for Landing Page
     pod 'TPKeyboardAvoidingSwift'
     pod 'UIWindowTransitions'
-#    pod 'PinLayout'
+    pod 'PinLayout'
 #    pod 'RealmSwift', '~>10'
     
 end

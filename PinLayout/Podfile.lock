@@ -1,20 +1,24 @@
 PODS:
+  - PinLayout (1.10.0)
   - TPKeyboardAvoidingSwift (3.2)
   - UIWindowTransitions (1.0.0)
 
 DEPENDENCIES:
+  - PinLayout
   - TPKeyboardAvoidingSwift
   - UIWindowTransitions
 
 SPEC REPOS:
   trunk:
+    - PinLayout
     - TPKeyboardAvoidingSwift
     - UIWindowTransitions
 
 SPEC CHECKSUMS:
+  PinLayout: e50e9a748b632905fca6e67043ea4b05d6c92186
   TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
   UIWindowTransitions: 2237083382e11f100db7de934041bba0c4669c86
 
-PODFILE CHECKSUM: e64fecfe06725c4f7100c18b6cb7e628f1eb48cc
+PODFILE CHECKSUM: 2261e50438228b22dda4f9b7944553033d9514a6
 
 COCOAPODS: 1.10.1

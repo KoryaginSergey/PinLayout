@@ -175,10 +175,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIWindowTransitions/UIWindowTransitions.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UIWindowTransitions/UIWindowTransitions.framework"
 fi
