@@ -6,8 +6,8 @@ target 'Landing Page' do
   use_frameworks!
 
   # Pods for Landing Page
-#    pod 'TPKeyboardAvoidingSwift'
-#    pod 'UIWindowTransitions'
+    pod 'TPKeyboardAvoidingSwift'
+    pod 'UIWindowTransitions'
 #    pod 'PinLayout'
 #    pod 'RealmSwift', '~>10'
     

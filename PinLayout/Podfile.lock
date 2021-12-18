@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 464c2b0d55d94e589095afb8aa58928dbff8f8db
+PODS:
+  - TPKeyboardAvoidingSwift (3.2)
+  - UIWindowTransitions (1.0.0)
+
+DEPENDENCIES:
+  - TPKeyboardAvoidingSwift
+  - UIWindowTransitions
+
+SPEC REPOS:
+  trunk:
+    - TPKeyboardAvoidingSwift
+    - UIWindowTransitions
+
+SPEC CHECKSUMS:
+  TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
+  UIWindowTransitions: 2237083382e11f100db7de934041bba0c4669c86
+
+PODFILE CHECKSUM: e64fecfe06725c4f7100c18b6cb7e628f1eb48cc
 
 COCOAPODS: 1.10.1
