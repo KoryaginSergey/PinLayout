@@ -26,7 +26,6 @@
 		63785D1326CE673A002CB235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63785D1226CE673A002CB235 /* Assets.xcassets */; };
 		63785D1626CE673A002CB235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63785D1426CE673A002CB235 /* LaunchScreen.storyboard */; };
 		63785D2126CE6CD2002CB235 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63785D1F26CE6CD2002CB235 /* LoginViewController.swift */; };
-		63785D2226CE6CD2002CB235 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63785D2026CE6CD2002CB235 /* LoginViewController.xib */; };
 		843D4AF626DD6C2C006ECDBA /* WelcomeToAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D4AF426DD6C2C006ECDBA /* WelcomeToAppViewController.swift */; };
 		843D4AF726DD6C2C006ECDBA /* WelcomeToAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843D4AF526DD6C2C006ECDBA /* WelcomeToAppViewController.xib */; };
 		8473CFD2276E3BA6003205FB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8473CFD1276E3BA6003205FB /* Realm */; };
@@ -55,7 +54,6 @@
 		63785D1526CE673A002CB235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63785D1726CE673A002CB235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63785D1F26CE6CD2002CB235 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		63785D2026CE6CD2002CB235 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		843D4AF426DD6C2C006ECDBA /* WelcomeToAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToAppViewController.swift; sourceTree = "<group>"; };
 		843D4AF526DD6C2C006ECDBA /* WelcomeToAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeToAppViewController.xib; sourceTree = "<group>"; };
 		8B4AF9CC6ED0C38C2B578DD7 /* Pods_Landing_Page.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Landing_Page.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				63785D1F26CE6CD2002CB235 /* LoginViewController.swift */,
-				63785D2026CE6CD2002CB235 /* LoginViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -297,7 +294,6 @@
 				633FBC9A26D66B5100DBB485 /* ForgotPasswordView.xib in Resources */,
 				843D4AF726DD6C2C006ECDBA /* WelcomeToAppViewController.xib in Resources */,
 				634D5DD426CFD1600037C0C6 /* TextInputFieldView.xib in Resources */,
-				63785D2226CE6CD2002CB235 /* LoginViewController.xib in Resources */,
 				63785D1626CE673A002CB235 /* LaunchScreen.storyboard in Resources */,
 				63785D1326CE673A002CB235 /* Assets.xcassets in Resources */,
 			);

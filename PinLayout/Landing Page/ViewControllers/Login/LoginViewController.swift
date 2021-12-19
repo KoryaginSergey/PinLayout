@@ -13,7 +13,6 @@ final class LoginViewController: UIViewController {
   
   // MARK: - Defaults
   fileprivate enum Defaults {
-    
     enum StackView {
       static let height: CGFloat = 50
       static let top: CGFloat = 50
@@ -88,7 +87,7 @@ final class LoginViewController: UIViewController {
   }(UILabel())
   
   private let button: UIButton = {
-    $0.backgroundColor = .blue
+    $0.backgroundColor = myBlueColor
     $0.layer.cornerRadius = Defaults.Button.cornerRadius
     $0.setTitle("Start", for: .normal)
     $0.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .heavy)
@@ -113,6 +112,10 @@ final class LoginViewController: UIViewController {
     super.viewDidLoad()
     setup()
     setupGestureRecognizers()
+    view.backgroundColor = .white
+  }
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
   }
 }
 
@@ -146,6 +149,8 @@ private extension LoginViewController {
   func makePin() {
     //StackView
     stackView.pin.top(Defaults.StackView.top).height(Defaults.StackView.height).left(Defaults.StackView.horizont).right(Defaults.StackView.horizont)
+    
+    
     //Title
     titleLabel.pin.left(Defaults.Title.horizont).right(Defaults.Title.horizont).below(of: stackView).margin(Defaults.Title.top).sizeToFit(.width)
     //Description
